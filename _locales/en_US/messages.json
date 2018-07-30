@@ -1,0 +1,17 @@
+﻿{
+   "desc": {
+      "message": "Allows to download free music from Odnoklassniki(ok.ru)"
+   },
+   "name": {
+      "message": "Odnoklassniki music downloader"
+   },
+   "shortname": {
+      "message": "OD music downloader"
+   },
+   "title": {
+      "message": "Odnoklassniki music download"
+   },
+   "download_btn_title": {
+      "message": "Download with OD music downloader"
+   }
+}

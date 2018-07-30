@@ -1,0 +1,32 @@
+{
+   "background": {
+      "scripts": [ "javascript/bg.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "javascript/bg.js" ],
+      "matches": [ "http://www.ok.ru/*", "http://ok.ru/*", "https://ok.ru/*", "https://www.ok.ru/*", "http://pleer.com/*", "http://www.pleer.com/*", "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "__MSG_desc__",
+   "icons": {
+      "128": "img/128.png",
+      "16": "img/16.png",
+      "48": "img/48.png"
+   },
+   "default_locale": "en_US",
+   "browser_action": {
+      "default_icon": {
+         "128": "img/128.png"
+      },
+      "default_title": "__MSG_title__"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "7",
+   "name": "__MSG_name__",
+   "short_name": "__MSG_shortname__",
+   "permissions": [ "storage", "downloads", "tabs", "activeTab", "http://www.ok.ru/*", "http://*/*", "https://*/*", "https://ok.ru/*", "https://www.ok.ru/*", "http://ok.ru/*", "http://pleer.com/*", "http://www.pleer.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2018.07.30.2",
+   "web_accessible_resources": [ "javascript/bg.js", "img/download.png" ]
+}
